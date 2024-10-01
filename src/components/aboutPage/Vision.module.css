@@ -1,0 +1,53 @@
+.visionContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.visionText{
+    height: 800px;
+    width: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.visionText h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.visionText p {
+    text-align: justify;
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 16px;
+
+}
+
+.visionImgContainer1{
+    background-color: rgb(90, 90, 212);
+    height: 800px;
+    width: 800px; 
+    margin-left: 100px;
+    margin-right: 250px;
+    border-radius: 200px;
+}
+
+
+.visionImg{
+    height: 100%;
+    width: 100%; 
+    margin-right: 250px;
+    object-fit: cover;
+    border-radius: 200px;
+
+}
+
+
+

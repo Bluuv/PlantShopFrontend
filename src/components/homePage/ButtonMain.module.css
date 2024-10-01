@@ -1,0 +1,12 @@
+.pill{
+    font-size: 18px;
+    padding: 0.5em 2em;
+    margin: 0.5em;
+    border: 0;
+    outline: 0;
+    border-radius: 1em;
+    background-color: rgb(101, 180, 37);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+
+.banner{
+    height: 800px;
+    width: 1500px;
+    margin-top: 30px;
+
+    
+}
+
+
+.banner img{
+    filter: brightness(60%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.bannerimg {
+    object-fit: cover;
+}
+
+.promotxt{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.promotxtSmall{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.pill{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 18px;
+    padding: 0.5em 2em;
+    margin: 0.5em;
+    border: 0;
+    outline: 0;
+    border-radius: 1em;
+    background-color: rgb(101, 180, 37);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
