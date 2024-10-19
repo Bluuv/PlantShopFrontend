@@ -10,6 +10,7 @@ import NewsPage from "./pages/NewsPage";
 import CartPage from "./pages/CartPage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
+import WalletPage from "./pages/WalletPage";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       { path: "/cart", element: <CartPage /> },
       { path: "/login", element: <LoginPage /> },
       { path: "/signup", element: <SignupPage /> },
+      { path: "/shop/manage-account/add-money", element: <WalletPage/> },
     ],
   },
 ]);

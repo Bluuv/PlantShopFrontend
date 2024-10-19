@@ -3,12 +3,12 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4; /* Same background color as the sign-up */
+    background-color: white;
     padding: 2rem 4rem;
 }
 
 .loginBox {
-    background-color: white;
+    background-color: rgb(213, 243, 220);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 2px 2px 5px rgba(94, 104, 121, 0.3);

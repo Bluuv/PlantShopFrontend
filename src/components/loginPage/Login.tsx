@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { setUsername, setLoggedIn } from '../../store/LoginSlice';
 import styles from './Login.module.css';  
 
-const Login: React.FC = () => {
+function Login() {
     const [username, setUsernameInput] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');

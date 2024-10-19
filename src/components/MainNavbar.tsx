@@ -31,7 +31,7 @@ function MainNavbar() {
   };
 
     return (
-        <header>
+        <header className={styles.header}>
             <nav className={styles.upperHeader}>
                 <h1 className={styles.headerTitle}>Plant</h1>
                 <div className={styles.navCart}>
@@ -50,6 +50,9 @@ function MainNavbar() {
                             >
                                 Logout
                             </span>
+                            <NavLink to="/shop/manage-account/add-money" className={styles.auth}>
+                                <span>Wallet</span>
+                            </NavLink>
                         </>
                     ) : (
                         <>
