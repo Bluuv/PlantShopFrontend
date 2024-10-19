@@ -1,4 +1,4 @@
-import bannerImg from "../../assets/images/banner.jpeg";
+import bannerImg from "../../assets/images/vision4.jpg";
 import styles from "./Banner.module.css";
 import ButtonMain from "./ButtonMain";
 

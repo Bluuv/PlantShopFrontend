@@ -6,8 +6,6 @@ function AboutPage() {
     <>
       <section><Vision/></section>
       <section><Team/></section>
-      <section>Services</section>
-      <section>Collaborators</section>
     </>
   );
 }

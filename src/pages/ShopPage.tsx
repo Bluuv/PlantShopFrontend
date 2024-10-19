@@ -1,5 +1,11 @@
+
+import Shop from "../components/shopPage/Shop";
+
 function ShopPage() {
-  return <h1>SHOP PAGE</h1>;
+
+  return (
+          <Shop/>
+        );
 }
 
 export default ShopPage;

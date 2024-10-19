@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import NavLayout from "./pages/NavLayout";
@@ -9,18 +8,22 @@ import ShopPage from "./pages/ShopPage";
 import ContactPage from "./pages/ContactPage";
 import NewsPage from "./pages/NewsPage";
 import CartPage from "./pages/CartPage";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <NavLayout />,
+    element: <NavLayout />,  
     children: [
       { path: "/", element: <HomePage /> },
       { path: "/about", element: <AboutPage /> },
-      { path: "/shop", element: <ShopPage /> },
+      { path: "/shop/product", element: <ShopPage /> },
       { path: "/contact", element: <ContactPage /> },
       { path: "/news", element: <NewsPage /> },
       { path: "/cart", element: <CartPage /> },
+      { path: "/login", element: <LoginPage /> },
+      { path: "/signup", element: <SignupPage /> },
     ],
   },
 ]);

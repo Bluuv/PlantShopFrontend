@@ -9,4 +9,17 @@
     cursor: pointer;
     color: white;
     font-weight: bold;
+    text-decoration: none !important;
+    text-decoration-line: none;
+}
+
+a.pill{
+    text-decoration: none !important;
+}
+
+a.pill:active,
+a.pill:hover,
+a.pill:visited {
+    text-decoration: none !important; 
+    text-decoration-line: none !important;
 }

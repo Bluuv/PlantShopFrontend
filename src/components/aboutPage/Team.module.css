@@ -19,6 +19,14 @@
     text-align: center;
 }
 
+.teamPhoto{
+    height: 100%;
+    width: 100%; 
+    margin-right: 250px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
 .teamH1{
     text-align: center;
     margin-top: 100px;

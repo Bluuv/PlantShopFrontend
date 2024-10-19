@@ -1,5 +1,5 @@
 import styles from "./Vision.module.css";
-import visionImg from "../../assets/images/vision.jpeg";
+import visionImg from "../../assets/images/vision3.jpg";
 
 function Vision() {
   return (

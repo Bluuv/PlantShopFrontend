@@ -3,7 +3,19 @@
   text-wrap: nowrap;
   font-size: 20px;
   font-weight: bold;
-  margin-right: 200px;
+  margin-right: 340px;
+}
+
+.auth {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+
 }
 
 .navCartIcon {
@@ -35,7 +47,7 @@
   border: 0;
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 310px;
+  margin-left: 650px;
   width: 100%;
   font-size: 30px;
 }
